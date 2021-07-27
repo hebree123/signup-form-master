@@ -53,7 +53,7 @@ h2 {
 }
 
 body {
-  background-image: url(/images/bg-intro-mobile.png);
+  background-image: url(../images/bg-intro-mobile.png);
   background-color: #ff7a7a;
   font-family: Poppins;
 }
@@ -120,7 +120,7 @@ a {
   padding: 14px;
 }
 
-input:focus {
+.form-control input:focus {
   outline: none;
 }
 
@@ -258,7 +258,7 @@ button:active {
     padding-right: 50px;
   }
   body {
-    background-image: url(/images/bg-intro-desktop.png);
+    background-image: url(../images/bg-intro-desktop.png);
   }
   .hook {
     word-wrap: break-word;

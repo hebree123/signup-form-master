@@ -45,7 +45,7 @@ h2 {
 }
 
 body {
-  background-image: url(/images/bg-intro-mobile.png);
+  background-image: url(../images/bg-intro-mobile.png);
   background-color: $formErrorColor;
   font-family: Poppins;
 }
@@ -105,7 +105,7 @@ a {
   padding: 14px;
 }
 
-input:focus {
+.form-control input:focus {
   outline: none;
 }
 
@@ -236,7 +236,7 @@ button:active {
   }
 
   body {
-    background-image: url(/images/bg-intro-desktop.png);
+    background-image: url(../images/bg-intro-desktop.png);
   }
 
   .hook {
