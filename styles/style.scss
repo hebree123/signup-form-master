@@ -10,6 +10,7 @@ $formSuccessColor: hsl(154, 59%, 51%);
 $darkBlue: hsl(249, 10%, 26%);
 $blue: hsl(248, 32%, 49%);
 $greyBlue: hsl(246, 25%, 77%);
+$buttonHover: hsl(154, 66%, 43%);
 
 /* Containers */
 .bigContainer {
@@ -44,7 +45,7 @@ h2 {
 }
 
 body {
-  background-image: url(/images/bg-intro-mobile.png);
+  background-image: url(images/bg-intro-mobile.png);
   background-color: $formErrorColor;
   font-family: Poppins;
 }
@@ -155,7 +156,7 @@ button {
 
 button:hover,
 button:focus {
-  background: hsl(154, 66%, 43%);
+  background: $buttonHover;
 }
 
 button:active {
@@ -231,7 +232,7 @@ button:active {
   }
 
   body {
-    background-image: url(/images/bg-intro-desktop.png);
+    background-image: url(images/bg-intro-desktop.png);
   }
 
   .hook {
